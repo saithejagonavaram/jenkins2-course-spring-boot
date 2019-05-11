@@ -36,7 +36,7 @@ public class ChatService {
 
 	@Ready
 	public void onReady(final AtmosphereResource resource) {
-		this.logger.info("Connected", resource.uuid());
+		this.logger.info("Connected test", resource.uuid());
 	}
 
 	@Disconnect
